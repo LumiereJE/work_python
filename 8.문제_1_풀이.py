@@ -4,7 +4,7 @@
 hour, min, sec = map(int, input("시간입력 : ").split(":"))
 if hour > 12:
     hour -= 12
-    print(f"오후 {hour:02}시 {min:02}분 {sec:02}초")
+    print(f"오후 {hour:02}시 {min:02}분 {sec:02}초")     # 앞에 한자리가 비면 0으로 채우겠단거임. 앞만 0으로 써주면 되고 뒤는 아무숫자나 와도 됨.
 else :
     print(f"오전 {hour:02}시 {min:02}분 {sec:02}초")
 
@@ -33,7 +33,7 @@ month = int(jumin[2:4])
 day = int(jumin[4:6])
 gender = int(jumin[7])
 
-if gender == 1 or gender ==2:
+if gender == 1 or gender == 2:
     age = curr_year - 1900 - year
 else:
     age = curr_year - 2000 - year
