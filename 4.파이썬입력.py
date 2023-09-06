@@ -37,7 +37,7 @@
 hour, min, sec = map(int, input("시간입력 : ").split(":"))
 if(hour > 12):
     hour -= 12
-    print(f"오후{hour:02}시{min:02}분{sec:01}초")
+    print(f"오후{hour:02}시{min:02}분{sec:02}초")
 else:
     print(f"오전{hour:02}시{min:02}분{sec:02}초")
 

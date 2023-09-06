@@ -21,9 +21,9 @@ print("Hello")
 print("lice", "is", "too", "short", sep="\\")
 print("101","1234", "4578", sep="=")
 
-year 2023
-month 9
-day 6
+year = 2023
+month = 9
+day = 6
 print(year, month, day, sep="/")
 
 
