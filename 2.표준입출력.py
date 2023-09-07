@@ -13,6 +13,7 @@ print("안녕하세요라고 \"곰돌이사육사\"가 말했습니다.")
 # end와 sep옵션
 # end : 출력부분에서 끝에 자동으로 삽입되는 문자를 지정하는 옵션 : \n
 # sep : 출력문의 중간에 삽입되는 문자를 지정하는 옵션 : 기본은 space
+
 print("Hello", end = "\n")
 print("Hello", end = "$")
 print("Hello", end = "*")

@@ -38,8 +38,8 @@ print(input_str2.count("lo"))      # 문자열에서 포함된 문자(열)의 �
 print(len(input_str2))  # 문자열의 길이를 반환, 별도의 외부 함수를 사용하는 방식
 
 test = [1,2,3,4,5,6,7,8,9,10]
-print(f"길이 {len(test)}")
-print(input_str2.__len__())        # 문자열에 포함된 내장 함수
+print(f"길이 {len(test)}")            # 문자열에 포함된 내장 함수    (같은건데 쓰는 방법이 두개임)
+print(input_str2.__len__())          # 문자열에 포함된 내장 함수    (같은건데 쓰는 방법이 두개임)
 
 # 문자열 찾기 : find(), rfind(), index()
 # find() : 찾은 문자열의 첫번째 인덱스를 반환, 못찾으면 -1을 반환함
