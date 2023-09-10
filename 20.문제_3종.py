@@ -35,10 +35,10 @@
 # print(cnt)
 
 seat_num = list(map(int, input().split()))
-pc = [False] * 100          # 0으로 초기화된 100개의 리스트 생성
+pc = [0] * 100          # 0으로 초기화된 100개의 리스트 생성
 cnt = 0
 for e in seat_num:      # 향상된 for문이니까 e값은 고객이 원하는 좌석 번호임.
-    if pc[e - 1] False: cnt += 1     # 좌석수는 1부터인데 배열은 0부터라서 -1 임.
+    if pc[e - 1] != 0: cnt += 1     # 좌석수는 1부터인데 배열은 0부터라서 -1 임.
     else: pc[e - 1] = 1
 print(cnt)
 
