@@ -16,6 +16,7 @@ for line in f:                  # f는 파일 객체이며 파일의 위치를 �
     cappucino.append(int(data_list[4]))          # [4]번째가 카푸치노
 
 f.close()
+
 print(f"{head_list[1]} 전체 판매량 : {sum(espresso)}, 일 평균 판매량 : {sum(espresso)/len(espresso)}")
 print(f"{head_list[2]} 전체 판매량 : {sum(americano)}, 일 평균 판매량 : {sum(americano)/len(americano)}")
 print(f"{head_list[3]} 전체 판매량 : {sum(cafelatte)}, 일 평균 판매량 : {sum(cafelatte)/len(cafelatte)}")
